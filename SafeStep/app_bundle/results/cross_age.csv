@@ -1,0 +1,9 @@
+training,metric,value
+young + elderly (SafeStep),falls caught · young,0.9813333333333333
+young + elderly (SafeStep),false alarms/h · young,0.0
+young + elderly (SafeStep),falls caught · elderly,0.8666666666666667
+young + elderly (SafeStep),false alarms/h · elderly,0.0
+young only,falls caught · young,0.9893333333333333
+young only,false alarms/h · young,0.0
+young only,falls caught · elderly,0.8266666666666667
+young only,false alarms/h · elderly,0.0

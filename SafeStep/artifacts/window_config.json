@@ -1,0 +1,8 @@
+{
+  "fs": 50,
+  "window": 150,
+  "stride": 25,
+  "edge": 25,
+  "n_features": 345,
+  "n_invariant": 279
+}

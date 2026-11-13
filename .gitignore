@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+desktop.ini
+15
+
+# datasets and large artifacts
+SisFall/SisFall_dataset/
+SafeStep/SafeStep_bundle.zip
+SafeStep/data/
+SafeStep/models/
+SafeStep/app_bundle/data/
+*.joblib
+*.npz
+*.npy
+*.parquet
+*.zip

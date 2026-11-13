@@ -1,0 +1,42 @@
+{
+  "direction": {
+    "classes": [
+      "assisted",
+      "backward",
+      "forward",
+      "lateral",
+      "vertical"
+    ],
+    "val_f1": 0.6520419274852874,
+    "val_trial_acc": 0.77,
+    "test_f1": 0.5889803196865786,
+    "test_trial_acc": 0.74
+  },
+  "context": {
+    "classes": [
+      "fainting",
+      "getting_up",
+      "seated",
+      "sitting_down",
+      "walking"
+    ],
+    "val_f1": 0.7377979717024693,
+    "val_trial_acc": 0.7933333333333333,
+    "test_f1": 0.6914153884453114,
+    "test_trial_acc": 0.7577777777777778
+  },
+  "preimpact": {
+    "thr": 0.25,
+    "val_warned": 0.91,
+    "val_fa_h": 1.4679647280697192,
+    "test_warned": 0.92,
+    "test_fa_h": 2.359823566771329,
+    "test_median_lead_ms": 519.9999999999998
+  },
+  "long_lie": {
+    "post_fall_recognised": 0.9665577551412646,
+    "normal_lying_called_after_fall": 0.02874493927125506,
+    "confirmed_share": 0.9911111111111112,
+    "median_confirm_s": 3.5
+  }
+}

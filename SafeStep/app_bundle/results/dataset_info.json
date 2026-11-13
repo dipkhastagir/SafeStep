@@ -1,0 +1,187 @@
+{
+  "fs": 50,
+  "fs_raw": 200,
+  "channels": [
+    "acc_x",
+    "acc_y",
+    "acc_z",
+    "gyro_x",
+    "gyro_y",
+    "gyro_z",
+    "acc2_x",
+    "acc2_y",
+    "acc2_z"
+  ],
+  "units": {
+    "acc": "g",
+    "gyro": "deg/s"
+  },
+  "adl": {
+    "D01": [
+      "Walking slowly",
+      "Walking"
+    ],
+    "D02": [
+      "Walking quickly",
+      "Walking"
+    ],
+    "D03": [
+      "Jogging slowly",
+      "Jogging"
+    ],
+    "D04": [
+      "Jogging quickly",
+      "Jogging"
+    ],
+    "D05": [
+      "Stairs up/down slowly",
+      "Stairs"
+    ],
+    "D06": [
+      "Stairs up/down quickly",
+      "Stairs"
+    ],
+    "D07": [
+      "Sit half-height chair slowly",
+      "Sit/Stand"
+    ],
+    "D08": [
+      "Sit half-height chair quickly",
+      "Sit/Stand"
+    ],
+    "D09": [
+      "Sit low chair slowly",
+      "Sit/Stand"
+    ],
+    "D10": [
+      "Sit low chair quickly",
+      "Sit/Stand"
+    ],
+    "D11": [
+      "Collapse into chair",
+      "Sit/Stand"
+    ],
+    "D12": [
+      "Lie down slowly, sit up",
+      "Lying"
+    ],
+    "D13": [
+      "Lie down quickly, sit up",
+      "Lying"
+    ],
+    "D14": [
+      "Turn in bed (back-lateral-back)",
+      "Lying"
+    ],
+    "D15": [
+      "Bend with knees, get up",
+      "Bending"
+    ],
+    "D16": [
+      "Bend without knees, get up",
+      "Bending"
+    ],
+    "D17": [
+      "Get in/out of a car",
+      "Car"
+    ],
+    "D18": [
+      "Stumble while walking",
+      "Near-fall"
+    ],
+    "D19": [
+      "Gentle jump (reach high)",
+      "Near-fall"
+    ]
+  },
+  "fall": {
+    "F01": [
+      "Forward fall, slip (walking)",
+      "forward",
+      "walking"
+    ],
+    "F02": [
+      "Backward fall, slip (walking)",
+      "backward",
+      "walking"
+    ],
+    "F03": [
+      "Lateral fall, slip (walking)",
+      "lateral",
+      "walking"
+    ],
+    "F04": [
+      "Forward fall, trip (walking)",
+      "forward",
+      "walking"
+    ],
+    "F05": [
+      "Forward fall, trip (jogging)",
+      "forward",
+      "walking"
+    ],
+    "F06": [
+      "Vertical fall, fainting (walking)",
+      "vertical",
+      "fainting"
+    ],
+    "F07": [
+      "Fainting fall, hands on table",
+      "assisted",
+      "fainting"
+    ],
+    "F08": [
+      "Forward fall, getting up",
+      "forward",
+      "getting_up"
+    ],
+    "F09": [
+      "Lateral fall, getting up",
+      "lateral",
+      "getting_up"
+    ],
+    "F10": [
+      "Forward fall, sitting down",
+      "forward",
+      "sitting_down"
+    ],
+    "F11": [
+      "Backward fall, sitting down",
+      "backward",
+      "sitting_down"
+    ],
+    "F12": [
+      "Lateral fall, sitting down",
+      "lateral",
+      "sitting_down"
+    ],
+    "F13": [
+      "Forward fall, fainting (seated)",
+      "forward",
+      "seated"
+    ],
+    "F14": [
+      "Backward fall, fainting (seated)",
+      "backward",
+      "seated"
+    ],
+    "F15": [
+      "Lateral fall, fainting (seated)",
+      "lateral",
+      "seated"
+    ]
+  },
+  "seed": 42,
+  "qc": {
+    "subjects": 38,
+    "recordings": 4505,
+    "ADL recordings": 2707,
+    "fall recordings": 1798,
+    "elderly with falls": [
+      "SE06"
+    ],
+    "NaN in signals": 0,
+    "hours of data": 22.03,
+    "acc saturation (>15.9 g) samples": 0
+  }
+}
